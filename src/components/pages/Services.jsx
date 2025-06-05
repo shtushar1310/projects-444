@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import useScrollAnimation from '../../hooks/useScrollAnimation';
-import Contact from "./Contact"
+// import Contact from "./Contact"
 
 function Services() {
   useScrollAnimation();

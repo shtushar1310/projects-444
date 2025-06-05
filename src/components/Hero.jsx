@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
-import Contact from "./pages/Contact"
+// import Contact from "./pages/Contact"
 
 function Hero() {
   const [titleText, setTitleText] = useState('');

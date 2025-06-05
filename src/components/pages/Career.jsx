@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import useScrollAnimation from '../../hooks/useScrollAnimation';
-import Apply from './Apply'
+// import Apply from './Apply'
 
 function Career() {
   useScrollAnimation();
