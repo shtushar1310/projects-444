@@ -4,7 +4,7 @@ import Services from './pages/Services'
 import About from './pages/About'
 import Career from './pages/Career'
 import Contact from './pages/Contact'
-import Apply from './pages/Apply'
+// import Apply from './pages/Apply'
 
 
 // Scroll animation hook
@@ -40,7 +40,7 @@ function Content() {
         <Route path="/about" element={<About />} />
         <Route path="/career" element={<Career />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/apply" element={<Apply />} />
+        {/* <Route path="/apply" element={<Apply />} /> */}
       </Routes>
     </main>
   )
