@@ -131,14 +131,14 @@ function Hero() {
               <span className="animate-blink">|</span>
             </span>
           </p>
-          <Link 
-            to="/contact" 
+          <a 
+            href="/contact" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-block bg-white text-sky-600 px-8 py-3 rounded-full font-semibold hover:bg-sky-50 transition duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 animate-float-left animation-delay-400"
           >
             Get Started
-          </Link>
+          </a>
         </div>
       </div>
 

@@ -10,26 +10,26 @@ function Career() {
         <div className="bg-white p-6 rounded-lg shadow-lg mb-6 slide-in-right reveal-on-scroll">
           <h3 className="text-xl font-semibold mb-2 text-sky-600">Senior Developer</h3>
           <p className="text-gray-600 mb-4">We're looking for experienced developers to join our team.</p>
-          <Link 
-            to="/apply" 
+          <a 
+            href="/apply" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-block bg-sky-600 text-white px-4 py-2 rounded hover:bg-sky-700 transition"
           >
             Apply Now
-          </Link>
+          </a>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg slide-in-right reveal-on-scroll" style={{ animationDelay: '0.2s' }}>
           <h3 className="text-xl font-semibold mb-2 text-sky-600">UX Designer</h3>
           <p className="text-gray-600 mb-4">Join our design team and create amazing user experiences.</p>
-          <Link 
-            to="/apply" 
+          <a 
+            href="/apply" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-block bg-sky-600 text-white px-4 py-2 rounded hover:bg-sky-700 transition"
           >
             Apply Now
-          </Link>
+          </a>
         </div>
       </div>
     </div>
