@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
+import Contact from "./pages/Contact"
 
 function Hero() {
   const [titleText, setTitleText] = useState('');
@@ -132,7 +133,7 @@ function Hero() {
             </span>
           </p>
           <a 
-            href="/contact" 
+            href={Contact} 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-block bg-white text-sky-600 px-8 py-3 rounded-full font-semibold hover:bg-sky-50 transition duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 animate-float-left animation-delay-400"
