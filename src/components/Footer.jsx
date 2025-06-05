@@ -22,7 +22,7 @@ function Footer() {
             <h3 className="text-lg font-semibold mb-4 text-sky-400">Contact Info</h3>
             <ul className="space-y-2 text-gray-300">
               <li>Email: info@insignyx.com </li>
-              <li>Phone: +91 9876543210</li>
+              <li>Phone: +91 95205 31149</li>
               <li>Address: Mumbai, Maharashtra, India</li>
             </ul>
           </div>
