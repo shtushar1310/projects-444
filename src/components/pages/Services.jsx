@@ -65,8 +65,8 @@ function Services() {
                 ))}
               </ul>
               <Link
-                href={Contact}
-                target="_blank"
+                to='/Contact'
+                
                 rel="noopener noreferrer"
                 className="inline-block w-full text-center bg-sky-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-sky-700 transition duration-300 transform hover:-translate-y-0.5"
               >
